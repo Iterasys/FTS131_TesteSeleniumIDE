@@ -13,7 +13,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 class TestConsultaCurso():
   def setup_method(self, method):
     self.driver = webdriver.Chrome('drivers/chrome/94/chromedriver.exe')
-    self.driver.implicitly_wait(3)
+    # self.driver.implicitly_wait(3)
     self.vars = {}
   
   def teardown_method(self, method):
